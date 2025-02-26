@@ -1,0 +1,72 @@
+body {
+    background-color: white; /* خلفية بيضاء */
+    display: flex; /* استخدام flexbox للمحاذاة */
+    justify-content: center; /* محاذاة أفقيًا */
+    align-items: center; /* محاذاة عموديًا */
+    height: 100vh; /* تأخذ الشاشة بالكامل */
+    margin: 0; /* إزالة الهوامش الافتراضية */
+    font-family: Arial, sans-serif; /* تحديد الخط */
+}
+
+
+div{
+  background-color: pink;
+  padding: 25px;/*مسافه داخليه*/
+ border-radius: 20px; /*جعل الحواف غير حاده*/
+  box-shadow: 5px 5px 15px;/*ضل*/
+  rgba(0,0,0,0.3)
+  text-align: center;
+  width: 90%; /* جعله يأخذ 90% من عرض الشاشة */
+    max-width: 350px; /* لا يزيد عن 350px في الأجهزة الكبيرة */
+    min-width: 250px; /* لا يقل عن 250px في الأجهزة الصغيرة */
+  animation: fadeIn 0.5s ease-in-out; /* تأثير ظهور ناعم */
+}
+
+
+
+.q{
+    font-size: 22px; /* حجم الخط */
+    font-weight: bold; /* جعله عريض */
+    margin-bottom: 20px; /* مسافة تحت السؤال */
+}
+
+
+.a {
+    display: block; /* يجعل كل اختيار في سطر منفصل */
+    width: 100%; /* يجعل الزر يأخذ عرض المربع بالكامل */
+    padding: 12px; /* مسافة داخلية */
+    margin: 8px 0; /* مسافة بين الأزرار */
+    border: none; /* إزالة الحدود */
+    border-radius: 12px; /* جعل الحواف ناعمة */
+    font-size: 18px; /* تكبير الخط */
+    cursor: pointer; /* تغيير شكل المؤشر عند المرور */
+    background-color: white; /* لون الخلفية */
+    color: black; /* لون النص */
+    border: 2px solid gray; /* إضافة إطار */
+    transition: all 0.3s ease-in-out; /* تأثير عند التمرير */
+}
+
+.a:hover {
+    background-color: lightblue; /* تغيير اللون عند التمرير */
+    transform: scale(1.05); /* تكبير بسيط عند التمرير */
+}
+
+
+.s{
+    width: 100%; /* جعله يأخذ عرض المربع بالكامل */
+    padding: 12px; /* مسافة داخلية */
+    margin-top: 10px; /* مسافة من الأزرار */
+    border: none; /* إزالة الحدود */
+    border-radius: 12px; /* جعل الحواف ناعمة */
+    font-size: 18px; /* تكبير الخط */
+    font-weight: bold; /* جعله عريض */
+    cursor: pointer; /* تغيير شكل المؤشر عند المرور */
+    background-color: blue; /* لون الزر */
+    color: white; /* لون النص */
+    transition: all 0.3s ease-in-out; /* تأثير عند التمرير */
+}
+
+.s:hover {
+    background-color: darkblue; /* تغيير اللون عند التمرير */
+    transform: scale(1.05); /* تكبير بسيط عند التمرير */
+}
